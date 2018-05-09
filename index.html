@@ -1,15 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title></title>
-    <link rel="stylesheet" href="style.css">
+<html>
+<head>		
+	<!-- Custom css -->
+	<link rel="stylesheet" type="text/css" href="main_IH.css">
+	
+	<title>PruebaUno</title>
 </head>
-<body>
-    <div class="container">
-        <h1>Hello World!</h1>
-        <button id="btn">Click me</button>
-    </div>
-    <script src="index.js"></script>
+<body>	
+	
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-3">
+				<button id="getData"> GetData </button>
+				<button id="updateTable"> UpdateTables </button>
+			</div>
+		<div>
+			
+		<div id="tableAREAWrapper">
+			<div id="tableAREAScroll">
+				<table>
+					<thead>
+						<tr>
+							<th colspan="4"> Information AREA. </th>	
+						</tr>
+						<tr>
+							<th> # </th>
+							<th> Position </th>
+							<th> Name </th>
+							<th> Borough </th>
+						</tr>
+							<tbody id="mainTableBodyAREA">
+								
+							</tbody>
+					</thead>
+				</table>
+			</div>
+		</div>
+			
+		
+		<div id="tableSAFETYWrapper">
+			<div id="tableSAFETYScroll">
+				<table>
+					<thead>
+						<tr>
+							<th colspan="6"> Information SAFETY. </th>	
+						</tr>
+						<tr>
+							<th> Date </th>
+							<th> Time </th>
+							<th> Description </th>
+							<th> Type </th>
+							<th> Borough </th>
+							<th> Position </th>
+						</tr>
+							<tbody id="mainTableBodySAFETY">
+								
+							</tbody>
+					</thead>
+				</table>
+			</div>
+		</div>
+		
+		
+		<div id="tableHOUSINGWrapper">
+			<div id="tableHOUSINGScroll">
+				<table>
+					<thead>
+						<tr>
+							<th colspan="4"> Information HOUSING. </th>	
+						</tr>
+						<tr>
+							<th> Borough </th>
+							<th> Lat (Int) </th>
+							<th> Long (Int)</th>
+							<th> Extremely Low Income Units </th>
+						</tr>
+							<tbody id="mainTableBodyHOUSING">
+								
+							</tbody>
+					</thead>
+				</table>
+			</div>
+		</div>
+	
+					
+	<!-- Jquery -->
+	<script
+	  src="https://code.jquery.com/jquery-3.2.1.min.js"
+	  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	  crossorigin="anonymous"></script>
+	<!-- Custom js -->
+	<script type="text/javascript" src="main_IH.js"></script>
 </body>
 </html>

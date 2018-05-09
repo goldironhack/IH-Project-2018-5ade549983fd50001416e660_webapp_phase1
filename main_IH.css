@@ -1,0 +1,49 @@
+table{
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0px;
+}	
+
+table, th, td{
+	padding: 5px;
+	border: 1px solid black;
+	text-align: center;
+	background: #D8D8D8
+}
+
+
+#tableAREAWrapper {
+	position:relative;
+	width:75%;
+	height: 400px;
+}
+
+#tableAREAScroll {
+  	height:400px;
+  	overflow:auto;  
+	margin-top:20px;
+}
+
+#tableSAFETYWrapper {
+  position:relative;
+  width:75%;
+  height: 400px;
+}
+
+#tableSAFETYScroll {
+  height:400px;
+  overflow:auto;  
+  margin-top:20px;
+}
+
+#tableHOUSINGWrapper {
+  position:relative;
+  width:75%;
+  height: 400px;
+}
+
+#tableHOUSINGScroll {
+  height:400px;
+  overflow:auto;  
+  margin-top:20px;
+}
