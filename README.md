@@ -1,21 +1,24 @@
 ## webapp_phase1
 
-Nombre: David Fernando Guerrero Álvarez
-C.C: 1070307259
-Correo: dafguerreroal@unal.edu.co
+First Delivery
+David Fernando Guerrero Álvarez
+dafguerreroal@unal.edu.co
 
-EntregaUno:
+Keywords:
+DataSets, array, JavaScript, Bourough
 
-Para la presente entrega, centré mi trabajo en la obtención de datos de algunos de los DATASETS proporcionados, más especificamente 3 de los DataSets obligatorios relacionados con "Area", "Seguridad", "Construcciones", ésto, con el fin de entender y analizar los datos a los cuales se les dará un manejo específico segun los requerimientos.
+Conjunto de Datos Principales:
+[DATASET][URL]: In the constants defined in this way you can find the links that lead to the direct information where specific data are extracted.
 
-Para cada DATASET, se creó una tabla en donde se visualizan los datos mas importantes de manera ordenada, implementado un Scroll para facilitar dicha visualización.
+[arrayDataSetArea][Array]: You can find 3 variables defined in the same way, the function of these arrays is to save the information obtained from the DataSets.
 
-Para guardar los datos obtenidos de cada URL se hizo uso de arreglos, de esta manera se facilita la obtencion de datos específicos para las tablas implementadas.
+Description First Delivery:
+For the present delivery, I focused my work on obtaining data from some of the DATASETS provided, more specifically 3 of the mandatory DataSets related to "Area", "Security", "Constructions", this, in order to understand and analyze the data to which they will be given a specific management according to the requirements.
+For each DATASET, a table was created in which the most important data is displayed in an orderly manner, with a Scroll implemented to facilitate this visualization.
+On the page there are two buttons, the first "GetData", has the function of obtaining the data of each DATASET and entering them in the respective dispositions, and the second, "UpdateTables", has the function of entering the specific data in the tables.
+CSS and JS were used for this part of the work.
+The data was obtained from DATASETS: Neighborhood Names GIS, Crime in NY, Dataset contains information about the housing of the city of New York through the construction of data.
+The graphic implementation has not been carried out since my intention is to work first in the analysis of the data so that in this way a better space management can be proposed given the requirements and situations that arise
 
-En la página que hasta ahora se presenta se observan dos botones, el primero "GetData", tiene la función de obtener los datos de cada DATASET e ingresarlos en los arreglos respectivos, y el segundo, "UpdateTables", tiene la función de ingresar los datos específicos en las tablas.
-
-Para esta parte de trabajo se hizo uso de CSS y JS.
-Los datos se obtuvieron de los DATASETS: Neighborhood Names GIS, Crimes in NY, Dataset contains information on New York City housing by building data.
-
-No se ha realizado implementación gráfica aún dado que mi intención es trabajar primero el analisis de los datos para que de esta manera se pueda plantear un mejor manejo del espacio dados los requerimientos y situaciones que se presenten.
-
+Test Case:
+The project has been tested in the Google Chrome browser without presenting any problems. 
